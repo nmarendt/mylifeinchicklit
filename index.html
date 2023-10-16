@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natalia Marendt"> 
+    <title>Natalia's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@600&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Icon Images above Navbar-->
+<div class="icons">
+    <a href="https://instagram.com/my_life_in_chick_lit?igshid=MzRIODBiNWFIZA=="><img src="images/instagram.png" alt="InstaIcon">
+    </a>
+    <a href="https://www.goodreads.com/user/show/62783808-natalia"><img src="images/goodreads-icon 3.png" alt="GoodReads">
+    </a>
+<!--Navigation Menu-->
+<div class="navbar">
+        <div class="title">My Life in Chick Lit</div>
+        <div class="menu-items">
+            <a href="#" class="menu1">Home</a>
+            <a href="#" class="menu2">About</a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">&#9776</div>
+    </div>
+    <!--Collapsible menu for small screens-->
+    <div class="collapsible-menu" id="collapsibleMenu">
+        <ul class="list">
+            <li><a href="#" class="listmenu">Home</a></li>
+            <li><a href="#" class="listmenu">About</a></li>
+        </ul>
+    </div>
+    <!--Subtitle-->
+    <div class="subtitle">living my bookish life</div>
+    </div>
+<!--Grid Container for Book Lists-->
+<div class="grid-title"><span class="underline-text">Book Lists</span></div>
+<div class="grid-container">
+    <div class="grid-item" data-item="1">
+        <img src="Images/philosophical.png" alt="books1">
+        <div class="box-text" id="box1">Philosophical</div>
+    </div>
+        <ul class="item-list hidden" data-item="1">
+            <li>A Gentleman in Moscow, Amor Towles</li>
+            <li>The Lincoln Highway, Amor Towles</li>
+            <li>The Midntight Library, Matt Haig</li>
+            <li>The Pillars of the Earth, Ken Follett</li>
+            <li>The 7 Husbands of Evelyn Hugo, Taylor Jenkins Reid</li>
+            <li>The Invisible Life of Addie LaRue, V.E. Schwab</li>
+        </ul>
+     <div class="grid-item" data-item="2">
+            <img src="images/Romantic.png" alt="books2">
+            <div class="box-text" id="box2">Romantic</div>
+     </div>
+        <ul class="item-list hidden" data-item="2">
+            <li>My Oxford Year, Julia Whelan</li>
+            <li>It Ends With Us, Colleen Hoover</li>
+            <li>Maybe Someday, Colleen Hoover</li>
+            <li>The Guy on the Right, Kate Stewart</li>
+            <li>The Ravenhood Series, Kate Stewart</li>
+            <li>The Friendzone, Abby Jimenez</li>
+            <li>My Life in Shambles, Karina Halle</li>
+            <li>One Day in December, Josie Silver</li>
+            <li>Half a Soul, Olivia Atwater</li>
+            <li>Literally anything by Lisa Kleypas</li>
+            <li>Bringing Down the Duke, Evie Dunmore</li>
+        </ul>
+     <div class="grid-item" data-item="3">
+            <img src="images/fantasy.png" alt="books3">
+            <div class="box-text" id="box1">Fantasy</div>
+     </div>
+        <ul class="item-list hidden" data-item="3">
+            <li>A Court of Thorns and Roses Series, SJ Maas</li>
+            <li>From Blood and Ash Series, Jennifer Armentrout </li>
+            <li>The Invisible Life of Addie LaRue, VE Schwab</li>
+            <li>Kingdom of the Wicked series, Kerri Maniscalco</li>
+            <li>Shadow in the Ember, Jennifer Armentrout</li>
+            <li>Fourth Wing</li>
+            <li>A King so Cold/The Stray Prince, Ella Fields</li>
+            <li>Radiance, Eidolon, Ippos King (Series), Grace Draven</li>
+        </ul>
+     </div>
+<div class="quote-section">
+    <div class="quote active"> "All humans make mistakes, what determines a persons character aren't the mistakes we make. It's how we take those mistakes and turn them into lessons rather than excuses" ~ It Ends With Us, Colleen Hoover </div>
+    <div class="quote">"It's quite the revelation to discover that the place you wanted to escape to is the exact same place you escaped from. The prison wasn't the place, but the perspective." The Midnight Library, Matt Haig</div>
+    <div class="quote">"The hardest thing is love, with no expiration date, no qualifiers, no safety net. Love that demands acceptance of all things I cannot change. Love that doesn't follow a plan." My Oxford year, Julia Whelan</div>
+    <div class="quote">"Because time is cruel to all, and crueler still to artists. Because visions weaken, and voices wither and talent fades...Because happiness is brief, and history is lasting, and in the end...everyone wants to be remembered." The Invisible Life of Addie LaRue, V.E. Schwab</div>
+    <div class ="quote">The past can teach us, nurture us, but it cannot sustain us. The essence of life is change, and we must move ever forward or the soul with wither and die." Mariana, Susanna Kearsley</div>
+    <div class ="quote">"Adversity presents itself in many forms; if a man does not master his circumstances, he is bound to be mastered by them." A Gentleman in Moscow, Amor Towles</div>
+    <div class = "quote">"When you're thinking, please remember this: excessive pride is a familiar sin, but a man may just as easily frustrate the will of God through excessive humility." The Pillars of the Earth, Ken Follett</div>
+    <div class = "quote">"Love by its definition is a lie, its true definition is work and a f*&% ton lot of it. It also means so much more than that one syllable. It's a one-word representation of everything that can make or break a person. love is only meant for the brave." The Real, Kate Stewart</div>
+</div>
+</div>
+<!--Currently Reading/Up Next/Just Finished Section-->
+<div class="new-section-container">
+    <div class="new-grid-title">Last Read
+     <div class="new-grid-item">
+            <img src="Images/the_september_house.jpg" alt="last-read" class="book-image" width="100px" height="120px"> 
+            <div class="new-text">
+                <h3>The September House</h3>
+                <p class="new-item-text"><span class="star">&#9734 &#9734 &#9734 &#9734</span></p>
+                <p class="new-item-text"> This one was the perfect read to get into the Halloween season! This book was not at all what I was expecting. Carissa Orlando has such a unique voice and has somehow managed to combine mystery, horror, supernatural/psychological thriller, and humer (of all things!) into one very engageing eerie read.</p>
+        </div>
+       </div>
+    </div>
+    <div class="new-grid-title">Currently Reading
+    <div class="new-grid-item">
+           <img src="Images/theunmakingofjunefarrow.jpg" alt="Currently Reading" class="book-image" width="100px" height="120px"> 
+           <div class="new-text">
+               <h3>The Unmaking of June Farrow</h3>
+               <p class="new-item-text">TBD</p>
+               <p class="new-item-text">I am really looking forward to this one! It has gotten quite a few 4+ star ratings already, and it's only been out for a short amount of time. I actually snagged my copy from my Book of the Month Club subscription and just cracked it open this week! I'm also going through my third re-read of 'A Court of Thorns and Roses' right now, so I will be toggling back and forth between this book and that series.</p>
+       </div>
+       </div>
+   </div>
+   <div class="new-grid-title">Up Next
+    <div class="new-grid-item">
+          <img src="Images/Iron In the Flame.jpg" alt="Up next" class="book-image" width="100px" height="120px"> 
+          <div class="new-text">
+              <h3>Iron Flame</h3>
+              <p class="new-item-text">Ok so who isn't excited about this book? If you haven't yet read Fourth Wing by Rebecca Yarros you have simply GOT TO GET ON BOARD! I already have this one pre-ordered and just waiting to ship to me on November 7th. This series is easily going to be climbing to my 'Fantasy Favorites' Book List, I can already feel it.</p>
+      </div>
+      </div>
+     </div>
+    </div>
+<!-- this is the about section-->
+<h1 class="hello">hello there!</h1>
+    <div class="about-section">
+        <p class="about-me"> Hello! Thank you for stopping by! I've been a lover of books for as long as I can remember, but really got into writing reviews and sharing my opinions on what I read just a few years ago. For some reason, I used to be a bit shy about sharing this information (probably because a lot of my reads fall into the 'smut' category). There was a book I read back in 2019 (the one I'm holding here in the picture) that really took me out of my shell. It reconnected me with all the things I loved about reading. I really just felt like sharing it with whoever would listen, which ultimately resulted in my bookstagram page. Through the bookstagram community, I was able to connect with fellow readers and authors who shared the same passion as I did about all things books. I'm not sure where this webpage will go, but I hope to anchor myself into the book-ish community! Looking forward to sharing my favorite books, quotes and upcoming reads! For the most up to date information, follow my bookstagram account and follow me/friend me on Goodreads! (linked above). Happy Reading!</p>
+        <div class="circular-image">
+            <img src="Images/nataliabook.jpg" class="about-me-image">
+    </div>
+    </div>
+    <form class="form" id="form">
+        <fieldset>
+            <legend>Let's Stay Connected!</legend>
+            <label for="Name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="enter your email address">
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>follow me at @my_life_in_chick_lit</p>
+        <p>all opinions are my own and I have no affiliations with any authors or publishing companies</p>
+    </footer>
+
+</body>
+</html>
